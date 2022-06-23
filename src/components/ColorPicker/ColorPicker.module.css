@@ -1,0 +1,35 @@
+.color__picker {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	transform: translate(50%, -0);
+	z-index: 5;
+}
+
+.color__corner {
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.color__colors {
+	position: absolute;
+	top: 0;
+	z-index: 3;
+	transform: translate(-100%, -50px);
+}
+
+.color__colors-true {
+	display: block;
+	visibility: visible;
+}
+
+.color__colors-false {
+	display: none;
+	visibility: hidden;
+}

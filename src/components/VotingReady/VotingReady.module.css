@@ -1,0 +1,84 @@
+.wrapper {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(10px);
+	z-index: 50;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.header {
+	background-color: #ffe871;
+	min-height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.header button {
+	background-color: transparent;
+	position: absolute;
+}
+
+.exit {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 40px;
+}
+
+.delete {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 40px;
+	height: 40px;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 30px;
+	padding: 30px 50px;
+	text-align: center;
+}
+
+.content {
+	padding: 40px 100px 0;
+}
+
+.content-dark {
+	background-color: #333;
+}
+
+.flex {
+	display: flex;
+	margin: 0 -30px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.howManyVoted {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-weight: bold;
+	font-size: 20px;
+}

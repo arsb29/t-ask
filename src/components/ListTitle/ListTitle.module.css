@@ -1,0 +1,54 @@
+.list__title {
+	font-weight: bold;
+	font-size: 20px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #333333;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+}
+
+.list__title-dark {
+	border-bottom: 2px solid #f5f5f6;
+}
+
+.list__title_text {
+	max-width: 278px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.list__title_text-dark {
+	color: #f5f5f6;
+}
+
+.list__title_editing {
+	font-size: 16px;
+	border: 1px solid #e6e6e6;
+	padding: 10px 5px;
+	border-radius: 10px;
+}
+
+.list__title button {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.list__title:hover button {
+	visibility: visible;
+	opacity: 1;
+}
+
+.list__title_buttons {
+	z-index: 3;
+	min-width: 45px;
+}
+
+.list__title_buttons button {
+	margin: 0 10px 0 0;
+}
+
+.list__title_buttons button:last-child {
+	margin: 0;
+}

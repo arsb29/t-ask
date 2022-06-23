@@ -1,0 +1,31 @@
+.card__content {
+	border: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+.card__title {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 27px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #333333;
+}
+
+.card__input {
+	width: 100%;
+	background-color: transparent;
+}
+
+.card__input::placeholder {
+	color: #9299a2;
+}
+
+.card__input-dark {
+	color: #f5f5f6;
+}

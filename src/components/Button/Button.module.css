@@ -1,0 +1,76 @@
+.button {
+	cursor: pointer;
+	min-width: 40px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 18px;
+	position: relative;
+	transition: all 0.5s ease 0s;
+	color: #333333;
+	background-color: #f5f5f6;
+	border-radius: 10px;
+	padding: 0 20px;
+}
+
+.button:hover {
+	transform: scale(1.1);
+}
+
+.delete {
+	background: url("res/delete.svg") #f5f5f6;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.deleteBlack {
+	background: url("res/deleteBlack.svg") #f5f5f6;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.new {
+	background: url("res/new.svg") #f5f5f6;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.newBlack {
+	background: url("res/newBlack.svg") #f5f5f6;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.edit {
+	background: url("res/edit.svg") #f5f5f6;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.check {
+	background: url("res/check.svg") #f5f5f6;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.people {
+	background: url("res/people.svg") #f5f5f6;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.voting {
+	background: url("res/voting.svg") #f5f5f6;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.exitBlack {
+	background-image: url("res/exitBlack.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.theme {
+	background-image: url("res/theme.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
